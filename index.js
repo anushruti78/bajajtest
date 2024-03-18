@@ -6,16 +6,16 @@ app.use(express.urlencoded({ extended: true }))
 
 const response = {
 	is_success: true,
-	user_id: 'shaurya_dhawan_23042003',
-	email: 'shaurya1305.be21@chitkara.edu.in',
-	roll_number: 2110991305,
+	user_id: 'anushruti05',
+	email: 'anushruti0243.be21@chitkara.edu.in',
+	roll_number: 2110990243,
 	odd_numbers: [],
 	even_numbers: [],
 	alphabets: []
 }
 
 app.get('/',(req,res)=>{
-	return res.send('hi);
+	return res.send("hi");
 })
 
 app.post('/bfhl', (req, res) => {
